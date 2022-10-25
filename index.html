@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Uygulaması</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="text-warning">Blog</span>App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Ana Sayfa</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./hakkımızda.html">Hakkımızda</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./makaleler.html">Makaleler</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#egitimler">Eğitimler</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolyo">Portfolyo</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./iletisim.html">İletişim</a>
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/images/home-1.jpg" class="d-block w-100" alt="...">
+
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/home-2.jpg" class="d-block w-100" alt="...">
+
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/home-3.jpg" class="d-block w-100" alt="...">
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="bg-light">
+    <div class="container-fluid py-5">
+      <div class="row gap-3 justify-content-center">
+        <div class="col-lg-3 border py-4 shadow">
+          <div class="row p-2">
+            <div class="col-lg-5 d-flex justify-content-center mb-sm-2 mb-md-3">
+              <img class="img-fluid h-100 rounded-circle" src="./assets/images/team-1.jpg" alt="">
+            </div>
+            <div class="col-lg-7 d-flex flex-column justify-content-center border-bottom border-top py-2">
+              <div class="p-1">
+                Kamil Kaplan
+              </div>
+              <div class="p-1">
+                Software Developer
+              </div>
+              <div class="p-1">
+                İstanbul/Ümraniye
+              </div>
+            </div>
+          </div>
+          <div class="p-3">
+            <p style="text-align: justify;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste, libero voluptates
+              molestias, quia architecto ducimus, iusto quod totam nulla facilis sed. Maxime quo,
+              fugiat
+              deleniti ratione illum accusantium labore.
+              Quam enim placeat obcaecati, nesciunt ducimus molestias optio ab! Maxime perferendis,
+              voluptates totam doloribus quia excepturi expedita accusamus, fuga harum sapiente quidem
+              aspernatur omnis quo placeat nostrum neque. Blanditiis, in.
+            </p>
+          </div>
+          <div style="text-align: right;">
+            <img class="p-2" src="./assets/images/phone.svg" alt="">
+            <img class="p-2" src="./assets/images/whatsapp.svg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 border py-4 shadow">
+          <div class="row p-2">
+            <div class="col-lg-5 d-flex justify-content-center mb-sm-2 mb-md-3">
+              <img class="img-fluid h-100  rounded-circle" src="./assets/images/team-1.jpg" alt="">
+            </div>
+            <div class="col-lg-7 d-flex flex-column justify-content-center  border-bottom border-top py-2">
+              <div class="p-1">
+                Mehmet Zahid Karaca
+              </div>
+              <div class="p-1">
+                Software Developer
+              </div>
+              <div class="p-1">
+                Bursa/Karacabey
+              </div>
+            </div>
+          </div>
+          <div class="p-3">
+            <p style="text-align: justify;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste, libero voluptates
+              molestias, quia architecto ducimus, iusto quod totam nulla facilis sed. Maxime quo,
+              fugiat
+              deleniti ratione illum accusantium labore.
+              Quam enim placeat obcaecati, nesciunt ducimus molestias optio ab! Maxime perferendis,
+              voluptates totam doloribus quia excepturi expedita accusamus, fuga harum sapiente quidem
+              aspernatur omnis quo placeat nostrum neque. Blanditiis, in.
+            </p>
+          </div>
+          <div style="text-align: right;">
+            <img class="p-2" src="./assets/images/phone.svg" alt="">
+            <img class="p-2" src="./assets/images/whatsapp.svg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 border py-4 shadow">
+          <div class="row p-2">
+            <div class="col-lg-5 d-flex justify-content-center mb-sm-2 mb-md-3">
+              <img class="img-fluid h-100 rounded-circle" src="./assets/images/team-1.jpg" alt="">
+            </div>
+            <div class="col-lg-7 d-flex flex-column justify-content-center  border-bottom border-top py-2">
+              <div class="p-1">
+                Mehmet Zahid Karaca
+              </div>
+              <div class="p-1">
+                Software Developer
+              </div>
+              <div class="p-1">
+                Bursa/Karacabey
+              </div>
+            </div>
+          </div>
+          <div class="p-3">
+            <p style="text-align: justify;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste, libero voluptates
+              molestias, quia architecto ducimus, iusto quod totam nulla facilis sed. Maxime quo,
+              fugiat
+              deleniti ratione illum accusantium labore.
+              Quam enim placeat obcaecati, nesciunt ducimus molestias optio ab! Maxime perferendis,
+              voluptates totam doloribus quia excepturi expedita accusamus, fuga harum sapiente quidem
+              aspernatur omnis quo placeat nostrum neque. Blanditiis, in.
+            </p>
+          </div>
+          <div style="text-align: right;">
+            <img class="p-2" src="./assets/images/phone.svg" alt="">
+            <img class="p-2" src="./assets/images/whatsapp.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="mt-4" style="background-color: #939393;">
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          2022 @ Tüm Haklara Saklıdır.
+          <div style="position: absolute;right: 16px;">
+            <img class="me-2" src="./assets/images/instagram.svg" alt="">
+            <img class="me-2" src="./assets/images/facebook.svg" alt="">
+            <img class="me-2" src="./assets/images/linkedin.svg" alt="">
+            <img class="me-2" src="./assets/images/telegram.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
